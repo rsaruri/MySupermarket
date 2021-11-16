@@ -2,9 +2,9 @@
 //open new html page for login 
 document.getElementById("btnLogin").onclick = window.open("file:///C:/Users/Rina%20Saruri/source/repos/WebApplication2/WebApplication2/HtmlPages/LoginPage.html");
 
-//-----------------
 
 
+//option 1: Show 3 imagas from array
 /*function createProduct(id, name, imageSource) {
     let myProduct = {
         id: id,
@@ -13,7 +13,6 @@ document.getElementById("btnLogin").onclick = window.open("file:///C:/Users/Rina
     };
     return myProduct;
 }
-
 
 var imgArray = new Array();
 imgArray[0] = new Image();
@@ -31,9 +30,10 @@ let result3 = createProduct(3, 'bisli', imgArray[2].src)
 console.log(result3);*/
 
 
+
+//option 2: Show 1 image 
 let img = document.createElement("img");
 img.src = 'C:\Users\Rina Saruri\source\repos\WebApplication2\picture\bamba.JPG';
-
 img.style.border = "0.5px solid orange";
 img.style.borderRadius = "100px";
 
