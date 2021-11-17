@@ -1,0 +1,20 @@
+﻿body {
+    background-color:antiquewhite;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    color:#ff0000
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #ff006e
+}
+
+form1{
+    background-color:#ff006e
+}
+
